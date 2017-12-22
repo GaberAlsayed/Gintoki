@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee);
+@import url(https://fonts.googleapis.com/css? family=Open+sans);
+
+body{
+  font-family:"Open Sans";
+  background-color:silver;
+  color:#862a12;
+  font-size:16px;
+}
+
+
+h1{
+  font-family:'Bungee';
+  font-size:75px;
+  margin-bottom:10px;
+  margin-top:10px;
+  text-align:center;
+  color:black;
+}
+h5{font-size:20px;
+  margin-bottom:5px;
+  text-align:center;
+}
+
+.container{
+  width:100%;
+  height:100;
+  min-height:250px;
+  position:relative;
+}
+img{
+  border-radius:10px;
+opacity:.96;
+margin-top:20px;
+display:block;
+max-width:25%;
+height:auto;
+width:auto;
+margin:auto;
+}
+img.frame{
+  border-image:url('http://www.freepngimg.com/download/decorative_border/5-2-decorative-border-png-clipart.png') 94 92 80 92 stretch stretch;
+border-color: #f4be52;
+border-style: inset;
+border-width: 50px;
+display: block;
+width: 50%;
+height:auto;
+background-color: #ffe;
+margin:15 auto;
+}
+@media all and (max-width: 500px) {
+  img.frame {
+    border-width: 0px;
+    width: 100%;}
+}
+  
+  
